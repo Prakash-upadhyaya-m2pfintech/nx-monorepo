@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+.select-input-register {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dde2e5;
+  height: 44px;
+  border-radius: var(--btn-radius8);
+  margin-bottom: 0px;
+  box-shadow: var(--box-shadow1);
+}

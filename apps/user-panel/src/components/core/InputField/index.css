@@ -1,0 +1,8 @@
+.password-toggle-icon {
+  position: absolute;
+  top: 2.5rem;
+  right: 0.75rem;
+  /* Adjust the value as needed */
+  transform: translateY(-50%);
+  cursor: pointer;
+}

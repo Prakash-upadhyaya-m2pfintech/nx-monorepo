@@ -1,0 +1,8 @@
+.select-menu-arrow {
+  -webkit-appearance: none; /* Remove default arrow for Chrome, Safari, and new Edge */
+  appearance: none; /* Remove default arrow for Firefox */
+  background-image: url("../../../assets/userScreenSvg/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Adjust as needed */
+  padding-right: 30px; /* Space for the custom arrow */
+}

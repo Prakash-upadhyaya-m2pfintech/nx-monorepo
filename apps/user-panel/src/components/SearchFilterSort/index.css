@@ -1,0 +1,117 @@
+/* search bar and selects */
+
+.builder-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.builder-input p {
+  margin: 0;
+}
+
+.filter-sort-div {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+}
+
+.filter-bar {
+  width: 33%;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.filter-bar p {
+  width: 42px;
+}
+
+.sort-bar {
+  width: 33%;
+  align-items: center;
+}
+
+.sort-bar p {
+  width: 42px;
+}
+#sea {
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  height: 44px;
+  border-radius: var(--btn-radius);
+  color: var(--gray0);
+  box-shadow: var(--box-shadow1);
+}
+.fil {
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  height: 44px;
+  border-radius: var(--btn-radius);
+  color: var(--gray0);
+  box-shadow: var(--box-shadow1);
+}
+.fil-title {
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  color: var(--gray0);
+}
+.filter-sort-div label {
+  font-size: var(--font-size-md);
+  color: var(--gray0);
+  margin-left: 0.5rem;
+}
+.filter-sort-div select {
+  height: 44px;
+  width: 100%;
+  margin-left: 10px;
+  border: 1px solid #dde2e5;
+  padding-left: 0.5rem;
+  border-radius: var(--btn-radius);
+  color: var(--gray0);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  padding: 5px !important;
+}
+.filter-sort-div select::after {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  right: 5px;
+}
+
+.search-bar {
+  position: relative;
+  padding-right: 2rem;
+}
+
+.search-bar input {
+  min-width: 100%;
+  height: 35px;
+  border: 1px solid #dde2e5;
+  border-radius: var(--btn-radius8);
+  padding: 10px;
+}
+
+.search-bar input::placeholder {
+  color: var(--gray0);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  padding-left: 1.5rem;
+}
+
+.search-bar button {
+  border: none;
+  padding: 0.3rem 0.5rem;
+  background-color: white;
+  margin-top: 0.1rem;
+}
+
+.search-bar .icon-search {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%); /* Centering the icon vertically */
+  fill: #57606a;
+  z-index: 3; /* Increased z-index to ensure icon appears above input */
+  background-color: white;
+}

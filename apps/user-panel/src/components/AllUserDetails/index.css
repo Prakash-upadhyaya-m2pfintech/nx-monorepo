@@ -1,0 +1,236 @@
+#id-style {
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  color: var(--gray3);
+}
+
+.single-line {
+  white-space: nowrap;
+}
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: relative;
+  border-bottom: 1px solid var(--gray1);
+  padding: 3rem 0rem 3rem 3rem;
+}
+.sub-header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.builder-heading-btn {
+  background-color: var(--black);
+  color: var(--white);
+
+  font-size: var(--font-size-sm);
+  border-radius: var(--btn-radius);
+  height: 35px;
+  padding: 0rem 1rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--border-input);
+  box-shadow: var(--input-box-shadow);
+}
+.builder-heading-btn-black {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size-15);
+  border-radius: var(--btn-radius);
+  height: 35px;
+  padding: 0rem 0.8rem 0rem 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-style: none;
+  box-shadow: var(--box-shadow1);
+}
+
+.builder-heading-btn-border {
+  background-color: var(--white);
+  color: var(--black);
+  font-size: var(--font-size-14);
+  border-radius: var(--btn-radius);
+  font-weight: var(--font-weight-500);
+  height: 35px;
+  padding: 0rem 1rem 0rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--heading-color);
+  box-shadow: var(--input-box-shadow);
+}
+
+.margin-up {
+  margin-top: -15px;
+}
+.label {
+  font-size: var(--font-size-12);
+  font-weight: var(--font-weight-400);
+  margin-left: 0.4rem;
+  margin-bottom: 0.4rem !important;
+  margin-top: 0 !important;
+  color: var(--gray3);
+}
+
+.select-input-div {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dde2e5;
+  height: 44px;
+  border-radius: var(--btn-radius8);
+  margin-bottom: 0px;
+  box-shadow: var(--box-shadow1);
+  width: 90%;
+}
+.half-field-phone:focus,
+.half-select-phone:focus {
+  outline: none;
+}
+
+.half-select-phone {
+  border-radius: 6px 0px 0px 6px;
+  font-size: var(--font-size-sm);
+  color: var(--gray3);
+  padding-left: 4px;
+  width: auto;
+  border-width: 0px;
+}
+.customPhoneNUmberInput {
+  position: relative;
+  top: -6px;
+  width: 100%;
+}
+
+.half-field-phone {
+  width: 100%;
+  font-size: var(--font-size-sm);
+  position: absolute;
+  top: 0px;
+  border: none;
+  padding-left: 8px;
+}
+.half-field-phone textarea:focus,
+.half-field-phone input:focus {
+  outline: none;
+}
+.half-field-phone::placeholder {
+  color: var(--gray3);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+}
+.custom-file-upload {
+  display: inline-block;
+  width: 90%;
+  border: 1px solid var(--gray1);
+  border-radius: var(--btn-radius);
+  box-shadow: var(--box-shadow1);
+  position: relative;
+  padding: 0.5em 1em;
+  height: 44px;
+}
+
+.mt-3 {
+  margin-top: none;
+}
+
+/* .custom-container .label {
+  line-height: none;
+} */
+
+.custom-file-upload .file-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 75%;
+  font-size: var(--font-size-xs);
+  color: var(--gray3);
+}
+
+.custom-file-label {
+  position: absolute;
+  right: 8px;
+  padding: 0.1em 0.5em;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  top: 0;
+  margin-top: 0.4rem;
+  text-align: center;
+  height: 30px;
+  font-size: var(--font-size-xs);
+  line-height: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-menu-arrow {
+  -webkit-appearance: none; /* Remove default arrow for Chrome, Safari, and new Edge */
+  appearance: none; /* Remove default arrow for Firefox */
+  background-image: url("../../assets/userScreenSvg/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Adjust as needed */
+  padding-right: 30px; /* Space for the custom arrow */
+  box-shadow: var(--box-shadow1);
+  width: 90%;
+  margin-bottom: 0.5rem;
+  height: 44px;
+  border-radius: var(--btn-radius);
+  border: 1px solid var(--gray1);
+  padding-left: 8px;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+}
+
+.select-menu-integration {
+  -webkit-appearance: none; /* Remove default arrow for Chrome, Safari, and new Edge */
+  appearance: none; /* Remove default arrow for Firefox */
+  background-image: url("../../assets/userScreenSvg/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Adjust as needed */
+  padding-right: 30px; /* Space for the custom arrow */
+  box-shadow: var(--box-shadow1);
+  width: 60% !important;
+  margin-bottom: 0.5rem;
+  height: 44px;
+  border-radius: var(--btn-radius);
+  border: 1px solid var(--gray1);
+  padding-left: 8px;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+}
+
+.builder-heading-btn-Save-details {
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size-15);
+  border-radius: var(--btn-radius);
+  height: 35px;
+  padding: 0rem 0.8rem 0rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  box-shadow: var(--box-shadow1);
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.input-custom-add {
+  box-shadow: var(--box-shadow1);
+  width: 90%;
+  margin-bottom: 0.5rem;
+  height: 44px;
+  border-radius: var(--btn-radius);
+  border: 1px solid var(--gray1);
+  padding-left: 15px;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+}

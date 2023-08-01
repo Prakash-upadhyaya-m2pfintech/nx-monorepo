@@ -1,0 +1,88 @@
+.main-signupConfirm {
+  padding: 55px 45px 45px;
+  background-color: var(--bg);
+  height: 100vh;
+  width: 100%;
+}
+
+.body-signupConfirm {
+  background-color: var(--bg);
+  background-image: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  padding-left: 1rem;
+}
+.body-sec {
+  background-color: white;
+  width: 95%;
+  height: 60%;
+  border-radius: var(--bdr-radius16);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 2rem;
+  box-shadow: var(--box-shadow2);
+}
+.icon-div {
+  display: flex;
+  gap: 16px;
+  padding: 1rem 0;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-black15);
+}
+
+.title-desc {
+  margin: 0px;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  color: var(--color-black15);
+}
+.icon-desc {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--gray3);
+  word-spacing: 2px;
+}
+.btn-confirm {
+  width: 15%;
+  height: 40px;
+  background-color: var(--color-black15);
+  color: var(--buttonBg);
+  border-radius: var(--btn-radius8);
+  border-style: none;
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.desc {
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  color: var(--color-black15);
+}
+
+.desc span {
+  color: var(--lightBlue);
+}
+.bottom-div-setpsd {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 12px;
+}
+
+.bottom-div-setpsd p {
+  margin: 0px;
+  padding-left: 5px;
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  color: var(--color-black15);
+}
